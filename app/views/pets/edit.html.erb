@@ -1,0 +1,11 @@
+<%= form_with model:@pet do |f| %>
+  <%= f.label :nombre %>
+  <%= f.text_field :nombre %>
+  <%= f.label :direccion %>
+  <%= f.text_field :direccion %>
+  <%= f.label :raza %>
+  <%= f.text_field :raza %>
+  <%= f.label :encontrado %>
+  <%= f.text_field :encontrado %>
+  <%= f.submit %>
+<% end %>

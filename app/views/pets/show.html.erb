@@ -1,0 +1,5 @@
+<h1><%= @pet.nombre %></h1>
+<h1><%= @pet.direccion %></h1>
+<h1><%= @pet.raza %></h1>
+<h1><%= @pet.encontrado %></h1>
+ <%= link_to "delete", pet_path(@pet), data: {turbo_method: :delete, turbo_confirm: "Estas seguro"} %>
